@@ -1,0 +1,120 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: Comic Sans MS;
+}
+
+h1 {
+  /*margin-bottom: 15px;*/
+  font-size: 1.75em;
+  text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+	/* border: 1px solid black; */
+	font-size: 1.25em;
+	/* position: relative; */
+	padding: -15px -15px -15px -15px;
+	/* margin: -1px -16px 5px 0px; */
+	/* float: right; */
+	/* width: 175px; */
+	text-align: center;
+	font-weight: bold;
+}
+
+/* specific background colors for the section titles */
+/* #beef { */
+	/* background-color: #AA4A44; */
+	/* color: white; */
+/* } */
+
+/* #chicken { */
+	/* background-color: #F88379; */
+/* } */
+
+/* #sushi { */
+	/* background-color: #FFE283; */
+/* } */
+
+p {
+	clear: right;
+}
+
+
+
+/* Used so that margins can be applied to space out the sections without messing up framework */
+.content {
+  border: 1px solid black;
+  margin: 10px 10px 10px 10px;
+  background-color: #808080;
+  padding: 0px 15px 0px 15px;
+  height: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* Simple Responsive Framework. */
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+#header-nav {
+  background-color: #808080;
+  border-radius: 0;
+  border: 0;
+}
+
+/* .navbar { */
+	/* height: 80px; */
+/* } */
+.navbar-header {
+	height: 80px;
+}
+	
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* Restaurant name */
+  /* font-family: 'Lora', serif; */
+  color: #000000;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  /* text-shadow: 1px 1px 1px #222; */
+  margin-top: 0;
+  margin-bottom: 0;
+  /* line-height: .75; */
+}
+
+#nav-list {
+  margin-top: 10px;
+  background: #F88379;
+}
+#nav-list a {
+  color: #000000;
+  text-align: center;
+  border: solid; 
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/**small devices**/
+@media (max-width: 767px) {
+	.content {
+		margin: 10px 50px 10px 50px;
+	}
+}
